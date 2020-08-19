@@ -1,0 +1,70 @@
+.team-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(231,241,248,0.9),rgba(231,241,248,0.9)),url("../img/team-bg.jpg");
+    background-position: center top;
+    background-attachment: fixed;
+    text-align: center;
+    color: #3c4761;
+    background-color: #e7f1f8;
+    h2{
+        color: #3c4761;
+    }
+    h2:after{
+        background-color: #c8d9e5;
+    }
+    h3{
+        color: #27283d;
+    }
+    .sub-title{
+        color: #30bae7;
+        margin-top: .5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    
+}
+
+
+.teamMember{
+    @extend .service_img;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.icon{
+    margin-top: 4.5rem;
+
+        ul{
+            li{
+                display: inline-block;
+                margin: 0.4rem;
+    
+                a{
+                    color: #fff;
+                }
+    
+                a i::before{
+                    background-color: #bdd1df;
+                    display: inline-block;
+                    width: 2rem;
+                    height: 2rem;
+                    font-size: 2rem;
+                    padding: 1rem;
+                    border-radius: 50%;
+                    transition: .5s;
+                }
+
+                a:hover i::before{
+                    background-color: #393939;
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+    
+}
+

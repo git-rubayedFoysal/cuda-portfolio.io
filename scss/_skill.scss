@@ -1,0 +1,46 @@
+#skill {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),url("../img/skill-bg.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    background-color: #fff;
+
+    h2 {
+        color: #3c4761;
+    }
+
+    h2:after {
+        background-color: #dfe8ed;
+    }
+
+    .box {
+        margin-top: 4.5rem;
+    }
+
+    .radial-progress {
+        circle {
+            stroke-width: 6;
+        }
+
+    }
+
+    .web circle{
+        stroke: #30bae7;
+    }
+    .html circle{
+        stroke: #d74680;
+    }
+    .grapic circle{
+        stroke: #15c7a8;
+    }
+    .ui circle{
+        stroke: #eb7d4b;
+    }
+
+    text {
+        fill: #3a3434;
+        text-anchor: middle;
+        font-size: 1.5rem;
+    }
+}

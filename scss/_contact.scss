@@ -1,0 +1,43 @@
+#contact{
+    background: linear-gradient(rgba(60,84,153,0.9),rgba(60,84,153,0.9)),url(../img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    h2:after{
+        background: #273a71;
+    }
+    .little-description{
+        color: #fff;
+        margin-bottom: 5rem;
+    }
+
+    form{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    input[type="text"],input[type="email"],textarea{
+        background-color: #273a71;
+        width: 100%;
+        padding: 1.5rem;
+        border: .1rem solid #273a71;
+        font-size: 1.8rem;
+        border-radius: 0.5rem;
+        margin: .5rem 0;
+        color: #fff;
+    }
+    textarea{
+        height: 20rem;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    form ::placeholder{
+        color: #fff;
+        opacity: 1;
+    }
+    .btn-submit{
+        background-color: #30bae7;
+        border-color: #299ec5;
+    }
+}
